@@ -1,0 +1,10 @@
+Requires Ruby 1.9.2 or later to run.
+Run these commands to try it out.
+
+  bundle
+  rake db:setup
+  #
+  # For the /config/initializers/omniauth.rb we will need to add several environment variables:
+  #   ENV['TWITTER_KEY'], ENV['TWITTER_SECRET'], ENV['GOOGLE_KEY'], ENV['GOOGLE_SECRET']
+  #
+  rails s
